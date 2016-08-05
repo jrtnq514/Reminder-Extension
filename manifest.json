@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Reminder",
+  "description": "Set quick one time reminders for you or someone else.",
+  "version": "1.0",
+  "author": "jrtnq514",
+
+  "browser_action": {
+    /*"default_icon": "icon.png",*/
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+      "activeTab",
+      "http://localhost:3002/"
+  ]
+}

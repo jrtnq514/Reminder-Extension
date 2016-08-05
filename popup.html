@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css"/>
+    </head>
+    <body>
+        <h1>Reminder</h1>
+
+        <div class="input-wrap title">
+            <div class="label">Title</div>
+            <input type="text"/>
+        </div>
+        <div class="input-wrap description">
+            <div class="label">Description</div>
+            <input type="textarea"/>
+        </div>
+        <div class="input-wrap email">
+            <div class="label">Email</div>
+            <input type="email"/>
+        </div>
+        <div class="input-wrap datetime">
+            <div class="label">When</div>
+            <input type="datetime-local"/>
+        </div>
+        <input type="button" id="submit" value="Submit">
+
+        <script type="text/javascript" src='jquery-3.0.0.min.js'></script>
+        <script type="text/javascript" src='popup.js'></script>
+    </body>
+</html>
